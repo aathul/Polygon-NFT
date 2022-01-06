@@ -1,8 +1,6 @@
-# Basic Sample Hardhat Project
+# ERC 721 implementation in polygon(MATIC) network using Hardhat (like Truffle, provides a suite of tools that help make development on Ethereum easier)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Try running some of the following tasks:
 
 ```shell
 npx hardhat accounts
@@ -10,6 +8,7 @@ npx hardhat compile
 npx hardhat clean
 npx hardhat test
 npx hardhat node
-node scripts/sample-script.js
+npx hardhat run scripts/deploy-script.js --network matic
+npx hardhat run scripts/mint-script.js --network matic
 npx hardhat help
 ```
